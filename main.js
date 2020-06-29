@@ -6,7 +6,7 @@ let extractedVowels = ""
 
 for (let i=0 ; i < stringToFilter.length; i++){
 
-   const curentLettres = stringToFilter[i];
+   const curentLettres = stringToFilter[i].toLowerCase;
 
         if (pattern.includes(curentLettres)){
             extractedVowels =+ curentLettres;
